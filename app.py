@@ -13,7 +13,7 @@ import re
 # ==========================================
 # 1. CONFIGURARE PAGINĂ & CSS
 # ==========================================
-st.set_page_config(page_title="Profesor Liceu", page_icon="🎓", layout="wide", initial_sidebar_state="expanded")
+st.set_page_config(page_title="Profesor 2", page_icon="🎓", layout="wide", initial_sidebar_state="expanded")
 
 st.markdown("""
 <style>
@@ -232,7 +232,7 @@ def run_chat_with_rotation(history_obj, payload):
 # ==========================================
 # 4. SIDEBAR & UPLOAD
 # ==========================================
-st.title("🎓 Profesor Liceu")
+st.title("🎓 Profesor 2")
 
 with st.sidebar:
     st.header("⚙️ Opțiuni")
